@@ -1,0 +1,72 @@
+class BBPPawnFlies extends BBPEnvironmental;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseDirectionAs=PTDU_Up
+         FadeOutStartTime=19.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=20
+         StartLocationRange=(X=(Min=5.000000,Max=15.000000),Y=(Min=5.000000,Max=15.000000),Z=(Min=-50.000000,Max=50.000000))
+         StartLocationPolarRange=(Z=(Max=30.000000))
+         UseRevolution=True
+         RevolutionsPerSecondRange=(X=(Min=-0.100000,Max=0.100000),Y=(Min=-0.100000,Max=0.100000),Z=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         StartSpinRange=(X=(Min=0.250000,Max=0.250000))
+         StartSizeRange=(X=(Min=1.000000,Max=1.500000))
+         UniformSize=True
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Particles.Fly'
+         LifetimeRange=(Min=20.000000,Max=25.000000)
+         StartVelocityRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=1.000000,Max=1.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.500000,RelativeVelocity=(X=3.000000,Y=3.000000,Z=3.000000))
+         VelocityScale(2)=(RelativeTime=1.000000,RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScaleRepeats=3.000000
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(0)=SpriteEmitter'BBParticles.BBPPawnFlies.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         Acceleration=(Z=2.000000)
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=26,G=40,R=37))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=47,G=72,R=67))
+         FadeOutStartTime=2.000000
+         FadeOut=True
+         FadeInEndTime=1.000000
+         FadeIn=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=50
+         StartLocationRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-70.000000,Max=70.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.010000,Max=0.010000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=30.000000))
+         UniformSize=True
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         WarmupTicksPerSecond=1.000000
+         RelativeWarmupTime=1.000000
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'BBParticles.BBPPawnFlies.SpriteEmitter7'
+     AutoDestroy=True
+     bNoDelete=False
+     bFullVolume=True
+     AmbientSound=Sound'DOTZXScaryAmbience.BuzzingFlies'
+     SoundVolume=105
+     SoundOcclusion=OCCLUSION_BSP
+     TransientSoundVolume=10.000000
+     TransientSoundRadius=50.000000
+}

@@ -1,0 +1,65 @@
+//-----------------------------------------------------------
+//
+//-----------------------------------------------------------
+class MiddleAgedHuman extends PlayerPawnBase;
+
+defaultproperties
+{
+     LyingAnims(0)="LyingPose"
+     AdditionalAnimPkg(0)=(AnimName="DOTZAHumans.HumanStandard")
+     AnimStandHitRight(0)="HitRightSide"
+     AnimStandHitLeft(0)="HitLeftSide"
+     AnimStandHitBack(0)="HitBack"
+     AnimStandHitHead(0)="HitHead"
+     AnimStandHitFront(0)="HitFront"
+     AnimCrouchHitRight(0)="CrouchHitRightSide"
+     AnimCrouchHitLeft(0)="CrouchHitLeftSide"
+     AnimCrouchHitBack(0)="CrouchHitBack"
+     AnimCrouchHitHead(0)="CrouchHitHead"
+     AnimCrouchHitFront(0)="CrouchHitFront"
+     AnimCrawlHitRight(0)="CrawlHitRightSide"
+     AnimCrawlHitLeft(0)="CrawlHitLeftSide"
+     AnimCrawlHitBack(0)="CrawlHitBack"
+     AnimCrawlHitHead(0)="CrawlHitHead"
+     AnimCrawlHitFront(0)="CrawlHitFront"
+     FootStepSound(0)=Sound'PlayerSounds.FootSteps.FootstepDefault1'
+     FootStepSound(1)=Sound'PlayerSounds.FootSteps.FootstepDefault2'
+     FootStepSound(2)=Sound'PlayerSounds.FootSteps.FootstepDefault3'
+     FootStepDirt(0)=Sound'PlayerSounds.FootSteps.BFootstepDirt1'
+     FootStepDirt(1)=Sound'PlayerSounds.FootSteps.BFootstepDirt2'
+     FootStepDirt(2)=Sound'PlayerSounds.FootSteps.BFootstepDirt3'
+     FootStepMetal(0)=Sound'PlayerSounds.FootSteps.BFootstepMetal1'
+     FootStepMetal(1)=Sound'PlayerSounds.FootSteps.BFootstepMetal2'
+     FootStepMetal(2)=Sound'PlayerSounds.FootSteps.BFootstepMetal3'
+     FootStepPlant(0)=Sound'PlayerSounds.FootSteps.BFootstepPlant1'
+     FootStepPlant(1)=Sound'PlayerSounds.FootSteps.BFootstepPlant2'
+     FootStepPlant(2)=Sound'PlayerSounds.FootSteps.BFootstepPlant3'
+     FootStepRock(0)=Sound'PlayerSounds.FootSteps.BFootstepRock1'
+     FootStepRock(1)=Sound'PlayerSounds.FootSteps.BFootstepRock2'
+     FootStepRock(2)=Sound'PlayerSounds.FootSteps.BFootstepRock3'
+     FootStepWater(0)=Sound'PlayerSounds.FootSteps.FootStepWater'
+     FootStepWater(1)=Sound'PlayerSounds.FootSteps.FootstepWater1'
+     FootStepWater(2)=Sound'PlayerSounds.FootSteps.FootstepWater2'
+     FootStepWood(0)=Sound'PlayerSounds.FootSteps.BFootstepWood1'
+     FootStepWood(1)=Sound'PlayerSounds.FootSteps.BFootstepWood2'
+     FootStepWood(2)=Sound'PlayerSounds.FootSteps.BFootstepWood3'
+     FootStepSnow(0)=Sound'PlayerSounds.FootSteps.FootstepRustlingBrush1'
+     FootStepSnow(1)=Sound'PlayerSounds.FootSteps.FootstepRustlingBrush2'
+     FootStepSnow(2)=Sound'PlayerSounds.FootSteps.FootstepRustlingBrush3'
+     HitSounds(0)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainGrunt1'
+     HitSounds(1)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainGrunt2'
+     HitSounds(2)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainGrunt3'
+     HitSounds(3)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainGrunt4'
+     DeathSounds(0)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainDeath1'
+     DeathSounds(1)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainDeath2'
+     DeathSounds(2)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainDeath3'
+     DeathSounds(3)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainDeath4'
+     DeathSounds(4)=Sound'DOTZXCharacters.PlayerPainSounds.PlayerPainDeath5'
+     HeadTextures(0)=Texture'DOTZTHumans.Hogarth.HogarthMortenBody01'
+     HeadTextures(1)=Texture'DOTZTHumans.Hogarth.HogarthMortenHade02'
+     HeadTextures(2)=Texture'DOTZTHumans.Hogarth.HogarthMortenHade03'
+     BodyTextures(0)=Texture'DOTZTHumans.Hogarth.HogarthMortenHade01'
+     BodyTextures(1)=Texture'DOTZTHumans.Hogarth.HogarthMortenBody02'
+     BodyTextures(2)=Texture'DOTZTHumans.Hogarth.HogarthMortenBody03'
+     Mesh=SkeletalMesh'DOTZAHumans.HogarthMorten'
+}

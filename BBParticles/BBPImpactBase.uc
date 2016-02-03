@@ -1,0 +1,78 @@
+class BBPImpactBase extends BBPHitFX;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         FadeOutStartTime=-0.250000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=-3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=3.000000))
+         UniformSize=True
+         Sounds(0)=(Sound=Sound'DOTZXDestruction.BulletImpacts.BulletGenericImpact1',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=1.000000,Max=1.000000),Volume=(Min=6.000000,Max=6.000000),Probability=(Min=1.000000,Max=1.000000))
+         Sounds(1)=(Sound=Sound'DOTZXDestruction.BulletImpacts.BulletGenericImpact2',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=1.000000,Max=1.000000),Volume=(Min=6.000000,Max=6.000000),Probability=(Min=1.000000,Max=1.000000))
+         Sounds(2)=(Sound=Sound'DOTZXDestruction.BulletImpacts.BulletGenericImpact3',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=1.000000,Max=1.000000),Volume=(Min=6.000000,Max=6.000000),Probability=(Min=1.000000,Max=1.000000))
+         SpawningSound=PTSC_Random
+         SpawningSoundProbability=(Min=1.000000,Max=1.000000)
+         InitialParticlesPerSecond=10000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'SpecialFX.Smoke.smokelight_a'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(Z=(Max=30.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.750000)
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(0)=SpriteEmitter'BBParticles.BBPImpactBase.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         FadeOutStartTime=-0.250000
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         SphereRadiusRange=(Min=-3.000000,Max=3.000000)
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.500000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=3.000000)
+         StartSizeRange=(X=(Min=4.000000,Max=4.000000))
+         UniformSize=True
+         SpawningSound=PTSC_Random
+         SpawningSoundProbability=(Min=1.000000,Max=1.000000)
+         InitialParticlesPerSecond=10000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'SpecialFX.Smoke.smokelight_a'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.750000,RelativeVelocity=(X=0.500000,Y=0.500000))
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(1)=SpriteEmitter'BBParticles.BBPImpactBase.SpriteEmitter11'
+     AutoDestroy=True
+     bNoDelete=False
+}

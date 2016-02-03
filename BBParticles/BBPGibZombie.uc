@@ -1,0 +1,131 @@
+class BBPGibZombie extends BBPGib;
+
+defaultproperties
+{
+     Begin Object Class=MeshEmitter Name=MeshEmitter2
+         StaticMesh=StaticMesh'DOTZSSpecial.Gore.BoneShardA'
+         Acceleration=(Z=-900.000000)
+         MaxParticles=20
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationOffset=(X=60.000000,Y=40.000000,Z=-30.000000)
+         StartLocationRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Min=-10.000000,Max=10.000000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.500000,Max=0.500000),Y=(Min=-0.500000,Max=0.500000),Z=(Min=-0.500000,Max=0.500000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Max=2.000000),Y=(Max=2.000000),Z=(Max=3.000000))
+         Sounds(0)=(Sound=Sound'DOTZXCharacters.ZombieImpactSounds.ImpactGibs3',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=1.000000,Max=1.000000),Volume=(Min=1.000000,Max=1.000000),Probability=(Min=1.000000,Max=1.000000))
+         Sounds(1)=(Sound=Sound'DOTZXCharacters.ZombieImpactSounds.ImpactGibs2',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=1.000000,Max=1.000000),Volume=(Min=1.000000,Max=1.000000),Probability=(Min=1.000000,Max=1.000000))
+         Sounds(2)=(Sound=Sound'DOTZXCharacters.ZombieImpactSounds.ImpactGibs1',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=1.000000,Max=1.000000),Volume=(Min=1.000000,Max=1.000000),Probability=(Min=1.000000,Max=1.000000))
+         SpawningSound=PTSC_Random
+         SpawningSoundProbability=(Min=1.000000,Max=1.000000)
+         InitialParticlesPerSecond=1000000000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-300.000000,Max=300.000000),Y=(Min=-300.000000,Max=300.000000),Z=(Max=600.000000))
+         Name="MeshEmitter2"
+     End Object
+     Emitters(0)=MeshEmitter'BBParticles.BBPGibZombie.MeshEmitter2'
+     Begin Object Class=MeshEmitter Name=MeshEmitter4
+         StaticMesh=StaticMesh'DOTZSSpecial.Gore.BloodyChunk'
+         Acceleration=(Z=-900.000000)
+         MaxParticles=25
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationOffset=(X=60.000000,Y=40.000000,Z=-50.000000)
+         StartLocationRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.200000,Max=0.200000),Y=(Min=-0.200000,Max=0.200000),Z=(Min=-0.200000,Max=0.200000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Max=3.000000),Y=(Max=3.000000),Z=(Max=3.000000))
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=0.750000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Min=300.000000))
+         Name="MeshEmitter4"
+     End Object
+     Emitters(1)=MeshEmitter'BBParticles.BBPGibZombie.MeshEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         Acceleration=(Z=-100.000000)
+         FadeOutStartTime=0.250000
+         FadeOut=True
+         MaxParticles=25
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationOffset=(X=60.000000,Y=40.000000,Z=-50.000000)
+         StartLocationRange=(X=(Min=-40.000000,Max=40.000000),Y=(Min=-40.000000,Max=40.000000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=25.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=None
+         TextureUSubdivisions=2
+         TextureVSubdivisions=1
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.250000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Max=75.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(2)=SpriteEmitter'BBParticles.BBPGibZombie.SpriteEmitter9'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter10
+         Acceleration=(Z=-400.000000)
+         FadeOutStartTime=0.750000
+         FadeOut=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationOffset=(X=60.000000,Y=40.000000,Z=-50.000000)
+         StartLocationRange=(X=(Min=-30.000000,Max=30.000000),Y=(Min=-30.000000,Max=30.000000))
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'SpecialFX.Particles.BloodSpurt'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.500000,Max=2.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Max=200.000000))
+         Name="SpriteEmitter10"
+     End Object
+     Emitters(3)=SpriteEmitter'BBParticles.BBPGibZombie.SpriteEmitter10'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter11
+         Acceleration=(Z=-200.000000)
+         FadeOut=True
+         MaxParticles=800
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         AddLocationFromOtherEmitter=1
+         SpinParticles=True
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=2.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000),Y=(Min=5.000000,Max=5.000000),Z=(Min=5.000000,Max=5.000000))
+         UniformSize=True
+         DrawStyle=PTDS_Darken
+         Texture=Texture'SpecialFX.Particles.BloodSpurt'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.500000,Max=0.500000)
+         Name="SpriteEmitter11"
+     End Object
+     Emitters(4)=SpriteEmitter'BBParticles.BBPGibZombie.SpriteEmitter11'
+     AutoDestroy=True
+     bNoDelete=False
+}

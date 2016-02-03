@@ -1,0 +1,153 @@
+class BBPOilDrum extends BBPDestruction;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter13
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         MaxParticles=20
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.010000,Max=0.010000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.800000,RelativeSize=5.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=35.000000,Max=75.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Max=500.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(X=3.000000,Y=3.000000,Z=0.500000))
+         VelocityScale(2)=(RelativeTime=0.800000,RelativeVelocity=(X=3.000000,Y=3.000000,Z=-1.000000))
+         Name="SpriteEmitter13"
+     End Object
+     Emitters(0)=SpriteEmitter'BBParticles.BBPOilDrum.SpriteEmitter13'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter14
+         Acceleration=(Z=-10.000000)
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=8.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=8.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=60.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-500.000000,Max=500.000000),Y=(Min=-500.000000,Max=500.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.600000,RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.700000,RelativeVelocity=(Z=1.000000))
+         Name="SpriteEmitter14"
+     End Object
+     Emitters(1)=SpriteEmitter'BBParticles.BBPOilDrum.SpriteEmitter14'
+     Begin Object Class=MeshEmitter Name=MeshEmitter7
+         StaticMesh=StaticMesh'DOTZSSpecial.Particles.Barrelpiece'
+         Acceleration=(Z=-900.000000)
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(Z=(Max=60.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000),Z=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=0.500000),Y=(Min=0.500000),Z=(Min=0.500000))
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-400.000000,Max=400.000000),Y=(Min=-400.000000,Max=400.000000),Z=(Max=500.000000))
+         Name="MeshEmitter7"
+     End Object
+     Emitters(2)=MeshEmitter'BBParticles.BBPOilDrum.MeshEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter16
+         UseColorScale=True
+         FadeOutStartTime=-0.250000
+         FadeOut=True
+         MaxParticles=25
+         RespawnDeadParticles=False
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=-10.000000,Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=5.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=6.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000))
+         UniformSize=True
+         Sounds(0)=(Sound=Sound'DOTZXDestruction.Explosions.ExplosionsGrenade',Radius=(Min=300.000000,Max=300.000000),Pitch=(Min=0.500000,Max=1.000000),Volume=(Min=1.000000,Max=1.000000),Probability=(Min=1.000000,Max=1.000000))
+         SpawningSound=PTSC_Random
+         SpawningSoundProbability=(Min=1.000000,Max=1.000000)
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.500000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Max=200.000000))
+         Name="SpriteEmitter16"
+     End Object
+     Emitters(3)=SpriteEmitter'BBParticles.BBPOilDrum.SpriteEmitter16'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter17
+         UseDirectionAs=PTDU_Up
+         FadeOut=True
+         MaxParticles=50
+         RespawnDeadParticles=False
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'SpecialFX.Particles.rain'
+         LifetimeRange=(Min=0.250000,Max=0.400000)
+         StartVelocityRange=(X=(Min=-600.000000,Max=600.000000),Y=(Min=-600.000000,Max=600.000000),Z=(Max=500.000000))
+         Name="SpriteEmitter17"
+     End Object
+     Emitters(4)=SpriteEmitter'BBParticles.BBPOilDrum.SpriteEmitter17'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter18
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=14.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=15.000000)
+         StartSizeRange=(X=(Min=6.000000,Max=12.500000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         LifetimeRange=(Min=0.250000,Max=0.500000)
+         Name="SpriteEmitter18"
+     End Object
+     Emitters(5)=SpriteEmitter'BBParticles.BBPOilDrum.SpriteEmitter18'
+     AutoDestroy=True
+     bNoDelete=False
+}

@@ -1,0 +1,106 @@
+class BBPSniperRifleMuzzleFlash extends BBPMuzzleFlash;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         UseColorScale=True
+         ColorScale(0)=(Color=(B=255,G=255,R=255,A=255))
+         ColorScale(1)=(RelativeTime=1.000000,Color=(B=187,G=252,R=255,A=255))
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=2
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.437000,Max=0.573000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=0.820000)
+         StartSizeRange=(X=(Min=22.500000,Max=25.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         BlendBetweenSubdivisions=True
+         UseSubdivisionScale=True
+         SubdivisionScale(0)=0.900000
+         SubdivisionScale(1)=0.100000
+         SubdivisionScale(2)=0.001000
+         LifetimeRange=(Min=0.057000,Max=0.057000)
+         StartVelocityRange=(X=(Min=400.000000,Max=400.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'BBParticles.BBPSniperRifleMuzzleFlash.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         ColorMultiplierRange=(X=(Min=0.760000,Max=0.760000),Y=(Min=0.692000,Max=0.760000),Z=(Min=0.638000,Max=0.638000))
+         FadeOutStartTime=0.010000
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=2
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.387000,Max=0.495000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(1)=(RelativeTime=0.370000,RelativeSize=0.757000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=1.000000)
+         StartSizeRange=(X=(Min=12.500000,Max=12.500000))
+         UniformSize=True
+         InitialParticlesPerSecond=100.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         BlendBetweenSubdivisions=True
+         UseSubdivisionScale=True
+         SubdivisionScale(0)=0.900000
+         SubdivisionScale(1)=0.100000
+         SubdivisionScale(2)=0.001000
+         LifetimeRange=(Min=0.057000,Max=0.057000)
+         StartVelocityRange=(X=(Min=750.000000,Max=750.000000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(1)=SpriteEmitter'BBParticles.BBPSniperRifleMuzzleFlash.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter9
+         ColorMultiplierRange=(X=(Min=0.900000,Max=0.900000),Y=(Min=0.800000,Max=0.900000),Z=(Min=0.704000,Max=0.704000))
+         FadeOutStartTime=0.020000
+         FadeOut=True
+         CoordinateSystem=PTCS_Relative
+         MaxParticles=9
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationRange=(Y=(Min=-4.000000,Max=4.000000),Z=(Min=-4.000000,Max=4.000000))
+         UseRotationFrom=PTRS_Normal
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=0.025000,Max=0.035000))
+         StartSpinRange=(X=(Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=0.100000)
+         SizeScale(1)=(RelativeTime=0.280000,RelativeSize=1.126000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=0.870000)
+         StartSizeRange=(X=(Min=3.500000,Max=4.500000))
+         UniformSize=True
+         InitialParticlesPerSecond=450.179993
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         BlendBetweenSubdivisions=True
+         UseSubdivisionScale=True
+         SubdivisionScale(0)=0.900000
+         SubdivisionScale(1)=0.100000
+         SubdivisionScale(2)=0.001000
+         LifetimeRange=(Min=0.052000,Max=0.052000)
+         StartVelocityRange=(X=(Min=1150.000000,Max=1150.000000))
+         Name="SpriteEmitter9"
+     End Object
+     Emitters(2)=SpriteEmitter'BBParticles.BBPSniperRifleMuzzleFlash.SpriteEmitter9'
+     AutoDestroy=True
+     bNoDelete=False
+     bHardAttach=True
+}

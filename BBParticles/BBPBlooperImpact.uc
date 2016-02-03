@@ -1,0 +1,113 @@
+class BBPBlooperImpact extends BBPDestruction;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         FadeOut=True
+         MaxParticles=8
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(Z=(Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=30.000000)
+         StartSizeRange=(X=(Min=10.000000,Max=25.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=10000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Darken
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=2.000000)
+         InitialDelayRange=(Min=0.250000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-200.000000,Max=200.000000),Y=(Min=-200.000000,Max=200.000000),Z=(Max=200.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(0)=SpriteEmitter'BBParticles.BBPBlooperImpact.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         FadeOut=True
+         MaxParticles=5
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(Z=(Max=50.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=80.000000)
+         StartSizeRange=(X=(Min=5.000000,Max=10.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=10000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.500000,Max=1.000000)
+         InitialDelayRange=(Min=0.100000,Max=0.200000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Max=100.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(1)=SpriteEmitter'BBParticles.BBPBlooperImpact.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter4
+         Acceleration=(Z=-1000.000000)
+         FadeOutStartTime=0.500000
+         FadeOut=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         StartSizeRange=(X=(Min=5.000000,Max=20.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=10000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Particles.rockchunks02'
+         TextureUSubdivisions=4
+         TextureVSubdivisions=4
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-500.000000,Max=500.000000),Y=(Min=-500.000000,Max=500.000000),Z=(Max=1500.000000))
+         Name="SpriteEmitter4"
+     End Object
+     Emitters(2)=SpriteEmitter'BBParticles.BBPBlooperImpact.SpriteEmitter4'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter5
+         FadeOut=True
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(Z=(Max=50.000000))
+         RevolutionsPerSecondRange=(X=(Min=1.000000,Max=1.000000),Y=(Min=-1.000000,Max=1.000000))
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=1.000000,RelativeSize=30.000000)
+         StartSizeRange=(X=(Min=3.000000,Max=6.000000))
+         UniformSize=True
+         SpawningSound=PTSC_Random
+         SpawningSoundProbability=(Min=1.000000,Max=1.000000)
+         InitialParticlesPerSecond=10000000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.500000,Max=1.000000)
+         StartVelocityRange=(X=(Min=-50.000000,Max=50.000000),Y=(Min=-50.000000,Max=50.000000),Z=(Max=200.000000))
+         Name="SpriteEmitter5"
+     End Object
+     Emitters(3)=SpriteEmitter'BBParticles.BBPBlooperImpact.SpriteEmitter5'
+     AutoDestroy=True
+     bNoDelete=False
+}

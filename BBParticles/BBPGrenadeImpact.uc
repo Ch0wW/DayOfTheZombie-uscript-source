@@ -1,0 +1,147 @@
+class BBPGrenadeImpact extends BBPHitFX;
+
+defaultproperties
+{
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter0
+         FadeOutStartTime=1.000000
+         FadeOut=True
+         MaxParticles=25
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.010000,Max=0.010000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.800000,RelativeSize=5.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=5.000000)
+         StartSizeRange=(X=(Min=35.000000,Max=75.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=2.500000,Max=2.500000)
+         StartVelocityRange=(X=(Min=-20.000000,Max=20.000000),Y=(Min=-20.000000,Max=20.000000),Z=(Max=600.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.300000,RelativeVelocity=(X=3.000000,Y=3.000000,Z=0.500000))
+         VelocityScale(2)=(RelativeTime=0.800000,RelativeVelocity=(X=3.000000,Y=3.000000,Z=-1.000000))
+         Name="SpriteEmitter0"
+     End Object
+     Emitters(0)=SpriteEmitter'BBParticles.BBPGrenadeImpact.SpriteEmitter0'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter2
+         Acceleration=(Z=-10.000000)
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeSize=2.000000)
+         SizeScale(1)=(RelativeTime=0.200000,RelativeSize=2.000000)
+         SizeScale(2)=(RelativeTime=0.800000,RelativeSize=8.000000)
+         SizeScale(3)=(RelativeTime=1.000000,RelativeSize=8.000000)
+         StartSizeRange=(X=(Min=30.000000,Max=60.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_AlphaBlend
+         Texture=Texture'SpecialFX.Smoke.Smoke'
+         TextureUSubdivisions=2
+         TextureVSubdivisions=2
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=1.000000,Max=1.250000)
+         StartVelocityRange=(X=(Min=-600.000000,Max=600.000000),Y=(Min=-600.000000,Max=600.000000),Z=(Max=50.000000))
+         UseVelocityScale=True
+         VelocityScale(0)=(RelativeTime=0.600000,RelativeVelocity=(X=1.000000,Y=1.000000,Z=1.000000))
+         VelocityScale(1)=(RelativeTime=0.700000,RelativeVelocity=(Z=1.000000))
+         Name="SpriteEmitter2"
+     End Object
+     Emitters(1)=SpriteEmitter'BBParticles.BBPGrenadeImpact.SpriteEmitter2'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter3
+         UseColorScale=True
+         FadeOutStartTime=-0.250000
+         FadeOut=True
+         MaxParticles=30
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartLocationShape=PTLS_Polar
+         StartLocationPolarRange=(X=(Min=-100.000000,Max=100.000000),Y=(Min=-100.000000,Max=100.000000),Z=(Min=-10.000000,Max=100.000000))
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=3.000000)
+         SizeScale(1)=(RelativeTime=0.800000,RelativeSize=5.000000)
+         SizeScale(2)=(RelativeTime=1.000000,RelativeSize=6.500000)
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=100000000.000000
+         AutomaticInitialSpawning=False
+         DrawStyle=PTDS_Brighten
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         UseRandomSubdivision=True
+         LifetimeRange=(Min=0.500000,Max=0.750000)
+         StartVelocityRange=(X=(Min=-10.000000,Max=10.000000),Y=(Min=-10.000000,Max=10.000000),Z=(Max=550.000000))
+         Name="SpriteEmitter3"
+     End Object
+     Emitters(2)=SpriteEmitter'BBParticles.BBPGrenadeImpact.SpriteEmitter3'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter7
+         UseDirectionAs=PTDU_Up
+         FadeOut=True
+         MaxParticles=50
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         StartSizeRange=(X=(Min=10.000000,Max=20.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'SpecialFX.Particles.rain'
+         LifetimeRange=(Min=0.250000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-1000.000000,Max=1000.000000),Y=(Min=-1000.000000,Max=1000.000000),Z=(Max=500.000000))
+         Name="SpriteEmitter7"
+     End Object
+     Emitters(3)=SpriteEmitter'BBParticles.BBPGrenadeImpact.SpriteEmitter7'
+     Begin Object Class=SpriteEmitter Name=SpriteEmitter8
+         Acceleration=(Z=-100.000000)
+         FadeOut=True
+         MaxParticles=15
+         RespawnDeadParticles=False
+         AutoDestroy=True
+         UseRotationFrom=PTRS_Actor
+         SpinParticles=True
+         SpinsPerSecondRange=(X=(Min=-0.100000,Max=0.100000))
+         StartSpinRange=(X=(Min=-1.000000,Max=1.000000))
+         UseSizeScale=True
+         UseRegularSizeScale=False
+         SizeScale(0)=(RelativeTime=0.500000,RelativeSize=16.000000)
+         SizeScale(1)=(RelativeTime=1.000000,RelativeSize=20.000000)
+         StartSizeRange=(X=(Min=7.000000,Max=15.000000))
+         UniformSize=True
+         InitialParticlesPerSecond=1000000.000000
+         AutomaticInitialSpawning=False
+         Texture=Texture'SpecialFX.Fire.Explosion'
+         LifetimeRange=(Min=0.250000,Max=0.500000)
+         StartVelocityRange=(X=(Min=-500.000000,Max=500.000000),Y=(Min=-500.000000,Max=500.000000),Z=(Max=300.000000))
+         Name="SpriteEmitter8"
+     End Object
+     Emitters(4)=SpriteEmitter'BBParticles.BBPGrenadeImpact.SpriteEmitter8'
+     AutoDestroy=True
+     bNoDelete=False
+     bFullVolume=True
+     AmbientSound=Sound'DOTZXDestruction.Explosions.ExplosionsGrenade'
+     SoundRadius=600.000000
+     SoundVolume=205
+     SoundOcclusion=OCCLUSION_BSP
+     TransientSoundVolume=100.000000
+     TransientSoundRadius=600.000000
+}
